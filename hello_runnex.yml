@@ -1,0 +1,5 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: runnex_launcher
+      command: python3 /root/ades/execution_launcher.py
